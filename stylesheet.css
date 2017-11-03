@@ -1,0 +1,76 @@
+body {
+    background-color: black;
+}
+.welcome {
+    border-top: 1px solid gray;
+    color: gray;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 5px;
+    margin-top: 30px;
+    font-size: 12px;
+}
+#form {
+    text-align: center;
+    background-color: white;
+    width: 400px;
+    height: 450px;
+    margin: 0 auto;
+    
+}
+h4 {
+    padding-top: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+form input {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 5px 0 5px 0;
+    width: 70%;
+    border: none;
+    border-bottom: 1px solid #aaaaaa;
+}
+form input::placeholder {
+    padding-left: 10px;
+    color: black;
+}
+
+
+form button {
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+    padding: 8px 30px 8px 30px;
+    border: none;
+    width: 70%;
+    height: 40px;
+    display: block;
+    margin-top: 40px;
+    margin: 0 auto;
+    border-radius: 0;
+}
+
+#form p, a {
+    font-size: 12px;
+    color: gray;
+    padding-top: 50px;
+    display: inline-block;
+}
+a {
+    padding-left: 5px;
+}
+
+.GC {
+    text-align: center;
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    margin: 0 auto;
+}
+.GC p {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+}
